@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\setha\\Documents\\Capstone\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer\\Itinerary-Designer.csproj": {}
+    "C:\\Users\\catie\\OneDrive\\Desktop\\Itinerary Designer\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\setha\\Documents\\Capstone\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer\\Itinerary-Designer.csproj": {
+    "C:\\Users\\catie\\OneDrive\\Desktop\\Itinerary Designer\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\setha\\Documents\\Capstone\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer\\Itinerary-Designer.csproj",
+        "projectUniqueName": "C:\\Users\\catie\\OneDrive\\Desktop\\Itinerary Designer\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer.csproj",
         "projectName": "Itinerary-Designer",
-        "projectPath": "C:\\Users\\setha\\Documents\\Capstone\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer\\Itinerary-Designer.csproj",
-        "packagesPath": "C:\\Users\\setha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\setha\\Documents\\Capstone\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer\\obj\\",
+        "projectPath": "C:\\Users\\catie\\OneDrive\\Desktop\\Itinerary Designer\\LiftOff-Capstone\\Itinerary-Designer\\Itinerary-Designer.csproj",
+        "packagesPath": "C:\\Users\\catie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\catie\\OneDrive\\Desktop\\Itinerary Designer\\LiftOff-Capstone\\Itinerary-Designer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\setha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\catie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
