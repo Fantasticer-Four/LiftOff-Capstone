@@ -9,11 +9,18 @@ public class ItineraryController : Controller
 {
     private ItineraryDbContext context;
 
+    //   [HttpGet]
+    //     public IActionResult Index()
+    //     {
+    //         List<Employer> Employer = context.Employers.ToList();
+    //         return View(Employer);
+    //     }
     public ItineraryController() { }
 
     public IActionResult Index()
     {
-        return View();
+        List<Event> Events = context.Events.ToList();
+        return View(Events);
     }
 
     [HttpGet]
@@ -27,7 +34,7 @@ public class ItineraryController : Controller
     {
         // ViewBag.events = EventData.GetAll();
 
-        return Redirect(/Itinerary);
+        return Redirect("/");
     }
 
 
