@@ -1,13 +1,13 @@
 using System.Diagnostics;
-using Itinerary_Designer.Data;
-using Itinerary_Designer.Models;
 using Microsoft.AspNetCore.Mvc;
+using Trips.Models;
+using Trip_Designer.Data;
 
 namespace Itinerary_Designer.Controllers;
 
 public class ItineraryController : Controller
 {
-    private ItineraryDbContext context;
+    private TripDbContext context;
 
     //   [HttpGet]
     //     public IActionResult Index()
@@ -19,8 +19,8 @@ public class ItineraryController : Controller
 
     public IActionResult Index()
     {
-        List<Event> Event = context.Events.ToList();
-        return View(Event);
+        List<Trip> Itinerary = context.Itineraries.ToList();
+        return View(Itinerary);
     }
 
     [HttpGet]
@@ -34,6 +34,7 @@ public class ItineraryController : Controller
     {
         // ViewBag.events = EventData.GetAll();
 
+        // gotta come back later and make sure this really directs somewhere
         return Redirect("/");
     }
 
