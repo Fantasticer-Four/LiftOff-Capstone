@@ -19,8 +19,8 @@ public class ItineraryController : Controller
 
     public IActionResult Index()
     {
-        List<Event> Events = context.Events.ToList();
-        return View(Events);
+        List<Event> Event = context.Events.ToList();
+        return View(Event);
     }
 
     [HttpGet]
@@ -36,8 +36,6 @@ public class ItineraryController : Controller
 
         return Redirect("/");
     }
-
-
 
 
     // [HttpPost]
